@@ -11,9 +11,16 @@ Clone repo.
 Do patching from the inside the patchdone folder using following command
 
 $ tar xvfz ARToolKit-2.72.1.tgz 
+
+
 $ patch -p0 -d . < patch-before\ installing/artk-v4l2-2.72.1.20101003.patch 
+
+
 $ cd ARToolKit 
+
 $ ./Configure 
+
+
 $make
 
 
