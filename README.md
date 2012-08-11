@@ -18,10 +18,19 @@ $ patch -p0 -d . < patch-before\ installing/artk-v4l2-2.72.1.20101003.patch
 
 $ cd ARToolKit 
 
-$ ./Configure 
+
+$./Configure
+
+1st select V4L2 3rd option
+2nd  select y (X86)
+3rd select n
+4th select n
+ 
 
 
 $make
 
+$cd bin
 
+$./simpleLite
 
